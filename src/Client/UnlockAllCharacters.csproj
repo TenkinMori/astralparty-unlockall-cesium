@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>UnlockAllCharacters</AssemblyName>
+    <RootNamespace>UnlockAllCharacters</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CesiumLoader.SDK">
+      <HintPath>..\..\lib\CesiumLoader.SDK.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AstralParty.Runtime">
+      <HintPath>..\..\refs\game\AstralParty.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\refs\game\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
