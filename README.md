@@ -76,19 +76,20 @@ mods/UnlockAllCharacters/
 ## 构建
 
 ```
-dotnet build src/Client/UnlockAllCharacters.csproj -c Release
+pwsh -File build.ps1
 ```
 
 输出：
 
 ```
-src/Client/bin/Release/netstandard2.0/UnlockAllCharacters.dll
+dist/UnlockAllCharacters/UnlockAllCharacters.dll
 ```
 
 发布文件：
 
 ```
-dist/UnlockAllCharacters.dll
-dist/UnlockAllCharacters.json
-dist/icon.png
+dist/UnlockAllCharacters/
+├─ UnlockAllCharacters.dll
+├─ UnlockAllCharacters.json
+└─ icon.png
 ```

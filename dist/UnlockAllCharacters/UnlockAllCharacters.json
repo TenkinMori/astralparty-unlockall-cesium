@@ -1,0 +1,10 @@
+{
+  "id": "UnlockAllCharacters",
+  "name": "解锁全角色",
+  "version": "1.0.0",
+  "author": "TenkinMori",
+  "description": "提示：请勿在使用本插件的情况下进行抽卡，后果自负！！！\n解锁未解锁的角色，但PVE等级固定为0级。推荐在PVP等无等级的模式中使用，请低调使用。",
+  "permissions": 1,
+  "sdkVersion": "3.1.1",
+  "dependencies": []
+}
